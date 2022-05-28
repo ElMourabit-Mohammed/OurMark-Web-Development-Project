@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="stylesheet" href="assets/style.css">
+    <!---->
+    <title>Checkout Form | OurMark</title>
+    <link rel="shortcut icon" href="../../Assets-Global/LOGO/icon/fingerprint-solid-red.svg" />
+
+    <!---->
+</head>
+<body>
+    <div class="HEADER">
+        <div class="HEADER-CONTENT">
+            <img src="assets/images/RED-FP.png">
+            <h1>Checkout form</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, iusto dicta. Nam, odit sed quae iusto fuga dolorem sit omnis molestiae assumenda autem sunt nisi! Veritatis qui aperiam sint asperiores!</p>
+        </div>
+    </div>
+    <div class="REGISTRATION">
+        <form action="connect.php" method="post">
+                <div class="FirstLast">
+                    <div class="First">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName"/>
+                    </div>
+                    <div class="Last">
+                        <label for="lastName">Last Name</label>    
+                        <input type="text" class="form-control" id="lastName" name="lastName"/>
+                    </div>
+                </div>
+    
+                <div class="numero">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" class="form-control" id="number" name="number"/>
+                </div>
+    
+                <div class="mail">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" name="email"/>
+                </div>
+    
+                <div class="motdepasse">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password"/>
+                </div>
+                <!-- <label for="SERVICES">Choose a SERVICE:</label>
+                <select name="SERVICES">
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Motion Design">Motion Design</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Mobile Development">Mobile Development</option>
+                    <option value="Desktop Development">Desktop Development</option>
+                </select> -->
+    
+                <div class="choicebox">
+                    <label class="projectrelated" for="POG">A project related to a</label>
+                    <label for="PersonalProject" class="radio-inline1">
+                        <input type="radio" name="POG" value="P" id="PersonalProject"/>
+                        Personal Project
+                    </label>
+                    <label for="GroupProject" class="radio-inline2">
+                        <input type="radio" name="POG" value="G" id="GroupProject"/>
+                        Group Project
+                    </label>
+                </div>
+    
+                <div class="contactus">
+                    <label for="msg">Description of your project</label>
+                    <textarea id="msg" name="msg" rows="10" cols="60"></textarea>
+                </div>
+                <div class="btn-submit">
+                    <input type="submit" class="btn btn-primary" value="SOUMETTRE"/>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

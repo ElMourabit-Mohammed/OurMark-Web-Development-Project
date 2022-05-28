@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.HEADER{
+    width: 100%;
+    height: 300px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ededed;
+}
+.HEADER .HEADER-CONTENT{
+    height: 250px;
+    width: 900px;
+    /* background-color: coral; */
+    text-align: center;
+}
+.HEADER img{
+    width: 100px;
+    height: 120px;
+}
+.HEADER h1{
+    margin-bottom: 15px;
+}
+.REGISTRATION{
+    width: 100%;
+    height: 700px;
+    background-color: #ededed;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.REGISTRATION form{
+    width: 60%;
+    height: 650px;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .FirstLast{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .FirstLast .First{
+    width: 350px;
+    height: 60px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .FirstLast .Last{
+    width: 350px;
+    height: 60px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .numero{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .mail{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .subject{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .motdepasse{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.REGISTRATION form .choicebox{
+    width: 80%;
+    height: 75px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .contactus{
+    width: 80%;
+    height: 210px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.REGISTRATION form .btn-submit{
+    width: 80%;
+    height: 30px;
+    /* background-color: yellowgreen; */
+}
+
+.REGISTRATION form .FirstLast .First input,.REGISTRATION form .FirstLast .Last input,.REGISTRATION form .numero input,.REGISTRATION form .mail input,.REGISTRATION form .subject input,.REGISTRATION form .motdepasse input{
+    height: 32px;
+    background: none;
+    border: 1px #171717 solid;
+}
+
+.REGISTRATION form .FirstLast .First label,.REGISTRATION form .FirstLast .Last label,.REGISTRATION form .numero label,.REGISTRATION form .mail label,.REGISTRATION form .subject label,.REGISTRATION form .motdepasse label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.REGISTRATION form .choicebox .projectrelated{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.REGISTRATION form .choicebox .radio-inline1{
+    width: 130px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.REGISTRATION form .choicebox .radio-inline2{
+    width: 117px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.REGISTRATION form .contactus label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.REGISTRATION form .btn-submit button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #171717;
+    color: #ededed;
+    font-weight: 400;
+}
+
+.REGISTRATION form .btn-submit button:hover{
+    background-color: #bb1112;
+}
+
+
+.REGISTRATION form input{
+    padding-left: 5px;
+}
+
+.REGISTRATION form input:focus{
+    outline: none;
+    padding-left: 5px;
+}
+
+.REGISTRATION form textarea{
+    padding-left: 5px;
+    padding-top: 5px;
+    resize:none;
+    background: none;
+}
+
+.REGISTRATION form textarea:focus{
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+@media(max-width:1500px){
+    .REGISTRATION form{
+        width: 70%;
+    }
+}
+@media(max-width:1300px){
+    .REGISTRATION{
+        height: 800px;
+    }
+    
+    .REGISTRATION form{ 
+        height: 750px;
+    }
+    .REGISTRATION form .FirstLast{
+        width: 80%;
+        height: 135px;
+        flex-direction: column;
+    }
+    .REGISTRATION form .FirstLast .First{
+        width: 100%;
+    }
+    
+    .REGISTRATION form .FirstLast .Last{
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ededed;
+}
+.containercontent{
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #171717; */
+} 
+.oldinfo{
+    /* background-color: aquamarine; */
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oldinfocontent{
+    width: 700px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: #ededed;
+    border: 1px solid #171717;
+
+}
+.newinfo{
+    width: 700px;
+    height: 545px;
+    border-radius: 20px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #171717;
+}
+.newinformation{
+    width: 500px;
+    height: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    /* background-color: violet; */
+}
+input::placeholder{
+    color: #ededed;
+}
+
+input,select{
+    height:35px;
+    padding-left: 5px;
+    background-color: rgba(17, 17, 17, 0.4);
+    border: none;
+    font-weight: 700;
+    border-radius: 2px;
+    color: #ededed;
+    outline: none;
+    padding: 10px;
+}
+
+button{
+    height:35px;
+    padding-left: 0px;
+    color: #bb1112;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100px;
+}
+button:hover{
+    background-color: #bb1112;
+    color:#ededed;
+    transition: 0.5s;
+}

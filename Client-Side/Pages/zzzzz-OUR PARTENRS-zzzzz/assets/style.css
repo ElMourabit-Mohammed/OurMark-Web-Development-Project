@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* ----------START-PAGE-6---------- */
+.OURPERTNERS{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #c4c3c3;
+}
+.OURPERTNERS .OURPERTNERS-CONTENT{
+    width: 65%;
+    height: 65%;
+}
+.OURPERTNERS .OURPERTNERS-CONTENT .TITEL{
+    width: 100%;
+    height: 65%;
+    text-align: center;
+}
+.OURPERTNERS .OURPERTNERS-CONTENT .TITEL h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 48px;
+    color: #bb1112;
+    margin-bottom: 30px;
+}
+.OURPERTNERS .OURPERTNERS-CONTENT .TITEL p{
+    width: 700px;
+    height: 50px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color:#171717;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+/* body {
+  align-items: center;
+  background: #E3E3E3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+} */
+
+@-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+  }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
