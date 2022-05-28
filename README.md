@@ -1,4 +1,5 @@
-# OurMark-Web-Development-Project
+
+# OurMark - Web Development Project
 
 OurMark is a front-office/back-office website dedicated to a Tech company that presents multiple services ( graphic design, motion design, Seo, Web Development, Mobile Development, and more ...).
 The front-office is for any website visitor and the back-office dedicated to internal business management (task management between the project manager and the employees).
@@ -19,9 +20,9 @@ And from what we said previously the idea of fingerprint was come to give the cl
 
 | Color             | Hex                                                                | Color Psychology      |
 | ----------------- | ------------------------------------------------------------------ | ----------------------|
-| Red   | ![#bb1112](https://via.placeholder.com/10/bb1112?text=+) #bb1112 | excitement, passion, danger, energy, and action.
-| Black | ![#171717](https://via.placeholder.com/10/171717?text=+) #171717 | goodness, cleanliness, and humility.
-| White | ![#ededed](https://via.placeholder.com/10/ededed?text=+) #ededed | mystery, power, elegance, and sophistication.
+| Red   | 🔴 #bb1112 | excitement, passion, danger, energy, and action.
+| Black | ⚫ #171717 | goodness, cleanliness, and humility.
+| White | ⚪ #ededed | mystery, power, elegance, and sophistication.
 
 ## Font
 ---------- **Red Hat Display** ----------
@@ -44,7 +45,11 @@ With the goal to make our website work fastly we have used online references for
 
 - ▶️ https://www.freepik.com/home
 
-⚠️ 🛑 ⚠️ For that reason, if you want to live the right experience to our website you should be connected to the internet. ⚠️ 🛑 ⚠️
+⚠️ 🛑 ⚠️
+
+For that reason, if you want to live the right experience to our website you should be connected to the internet.
+
+⚠️ 🛑 ⚠️
 
 
 ## Built With
@@ -70,6 +75,8 @@ The online demo is just for the front-office part:
 ▶️ Front-office part:
 
 - **💻 https://vimeo.com/714756370 💻**
+
+
 ▶️ Back-office part:
 
 - **💻 https://vimeo.com/714758489 💻**
